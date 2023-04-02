@@ -1,0 +1,1 @@
+{"regex":["^https?://link\\.jianshu\\.com/\\?(?:[^&]+&)*?t\\=([^&]+)&?.*","^https?://(?:[a-z0-9-]+\\.)jianshu\\.com/go\\-wild\\?(?:[^&]+&)*?url\\=([^&]+)&?.*"],"status":301}
