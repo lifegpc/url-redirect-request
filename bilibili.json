@@ -1,5 +1,6 @@
 {
     "rules": [
-        {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/video/", "whitelist": true, "rules": ["p", "t"], "type": "remove_query"}
+        {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/video/", "whitelist": true, "rules": ["p", "t"], "type": "remove_query"},
+        {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/read/", "whitelist": true, "rules": [], "type": "remove_query"}
     ]
 }
