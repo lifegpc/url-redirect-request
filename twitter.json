@@ -1,0 +1,6 @@
+{
+    "rules": [
+        "^https?://(?:[a-z0-9-]+\\.)*twitter\\.com/i/redirect\\?(?:[^&]*&)*?url\\=([^&]+)&?.*",
+        {"basic": "^https?://([a-z0-9-]+\\.)*twitter\\.com/[^/]+/status/\\d+", "type": "remove_query", "whitelist": true, "rules": []}
+    ]
+}
