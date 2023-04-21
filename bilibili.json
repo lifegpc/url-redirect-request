@@ -4,6 +4,6 @@
         {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/read/", "whitelist": true, "rules": [], "type": "remove_query"},
         {"basic": "^https?://live\\.bilibili\\.com/(h5/)?\\d+(/)*(\\?.*)?$", "whitelist": true, "rules": [], "type": "remove_query"},
         {"basic": "^https?://t\\.bilibili\\.com/\\d+(/)*(\\?.*)?$", "whitelist": true, "rules": [], "type": "remove_query"},
-        {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/", "rules": ["spm_id_from"], "type": "remove_query"}
+        {"basic": "^https?://([a-z0-9-]+\\.)*bilibili\\.com/", "rules": ["spm_id_from", "utm_.*", "pagefrom"], "type": "remove_query"}
     ]
 }
