@@ -1,0 +1,5 @@
+{
+    "rules": [
+        {"basic": "^https?://([a-z0-9-]+\\.)*hoyoverse\\.com", "rules": ["utm_.*"], "type": "remove_query"}
+    ]
+}
