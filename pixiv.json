@@ -1,1 +1,6 @@
-{"regex":"^https?://(?:[a-z0-9-]+\\.)*pixiv\\.net/jump\\.php\\?(.*)","status":301}
+{
+    "rules": [
+        {"rule": "^https?://(?:[a-z0-9-]+\\.)*pixiv\\.net/jump\\.php\\?(.*)", "status": 301},
+        {"basic": "^https?://(?:[a-z0-9-]+\\.)*pixiv\\.net/", "rules": ["utm_.*", "_gl"], "type": "remove_query"}
+    ]
+}
