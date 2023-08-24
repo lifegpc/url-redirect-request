@@ -1,3 +1,3 @@
 {
-    "rules": {"basic": "^https?://([a-z0-9-]+\\.)*columbia\\.com/", "rules": ["utm_.*", "_gl"], "type": "remove_query"}
+    "rules": {"basic": "^https?://([a-z0-9-]+\\.)*columbia\\.jp/", "rules": ["utm_.*", "_gl"], "type": "remove_query"}
 }
